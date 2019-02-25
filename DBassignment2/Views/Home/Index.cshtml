@@ -1,60 +1,58 @@
-﻿@{
+﻿@model ConversionModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <hr>
+    <h1 class="display-4">Covert Intelligence suite</h1>
     <hr>
-    <h1 class="display-4">Welcome To The Website</h1>
-    <hr>
-    <hr>
-
-
-    <body style="background-color:powderblue;">
-
-        <p>enter the decimal number you wish to convert to binary:</p>
-        <br>
-        <label>enter number here:</label>
-        <input type="text" id="decimalNumber" />
-
-        <label>converts to:</label>
-        <input type="text" id="binaryNumber" />
-        <button name="" type="button">convert D2B</button>
-        
-        <br>
-        <br>
-
-        <p>enter the binary number you wish to convert to decimal:</p>
-        <br>
-        <label>enter number here:</label>
-        <input type="text" id="" />
-
-        <label>converts to:</label>
-        <input type="text" id="" />
-        <button name="" type="button">convert B2D</button><br>
-
-    </body>
-
-    <hr>
-    <p>daniel bell, 7503592, 2/22/2019</p>
-    <hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
+
+<body style="background-color:powderblue;">
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <h2>
+                @Html.Label("Enter the number you wish to convert: ")  @Html.EditorFor(x => x.myInput)
+            </h2>
+            <br />
+            @Html.Label("Conversion Options: ")
+            <br />
+            <input type="submit" value="Decimal To Binary" name="command" />
+            <input type="submit" value="Binary To Decimal" name="command" />
+            <br /><br />
+            <h2>
+                @Html.Label("Converts To: ") @Html.DisplayFor(x => x.myOutput)
+            </h2>
+        </fieldset>
+    }
+</body>
+<footer>
+    <hr>
+    <div class="container">
+        <center>Daniel Bell, 7503592, 2/22/2019</center>
+    </div>
+    <hr>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>

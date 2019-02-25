@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBassignment2", "DBassignment2\DBassignment2.csproj", "{2025EE22-452B-4B10-9164-C3CD58504E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBassignment2", "DBassignment2\DBassignment2.csproj", "{2025EE22-452B-4B10-9164-C3CD58504E98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunitTest", "NunitTest\NunitTest.csproj", "{06E7AC55-20EC-40AB-BF22-EBDF6D97C772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionCalculatorBLTests", "NunitTest\ConversionCalculatorBLTests.csproj", "{06E7AC55-20EC-40AB-BF22-EBDF6D97C772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classLibrary", "classLibrary\classLibrary.csproj", "{BFF6AB54-8828-4CF4-A604-4DA73930BCD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionCalculatorBL", "classLibrary\ConversionCalculatorBL.csproj", "{BFF6AB54-8828-4CF4-A604-4DA73930BCD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

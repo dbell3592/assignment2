@@ -18,27 +18,15 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DBassignment2</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-               
-    </header>
+   
     <div class="container">
-        <partial name="_CookieConsentPartial" />
+        <!-- <partial name="_CookieConsentPartial" />-->
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
+ 
     <footer class="border-top footer text-muted">
-        <div class="container">
-         
-        </div>
     </footer>
 
     <environment include="Development">
